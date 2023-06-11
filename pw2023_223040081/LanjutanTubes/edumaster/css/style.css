@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS NAVBAR */
+.navbar {
+  background-color: rgb(14, 184, 56) !important;
+}
+
+.navbar-brand {
+  transform: translateX(140px);
+}
+
+.navbar-brand h3 {
+  color: #fff;
+}
+
+.nav-item {
+  margin-left: 20px;
+  transform: translateX(-140px);
+}
+
+.nav-item a {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* AKHIR NAVBAR */
+
+/* AWAL JUMBOTRON */
+.tron {
+  background-color: rgb(14, 184, 56) !important;
+}
+
+.main {
+  padding: 20px;
+}
+
+.ydown {
+  transform: translateY(40px);
+}
+
+.jumbo h3 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.jumbo button {
+  border: none;
+  padding: 5px;
+  width: 35%;
+}
+
+.jumbo button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* AKHIR JUMBO */
+/* Awal content */
+.conten {
+  padding: 10px;
+}
+
+.hcontent {
+  padding: 10px;
+}
+
+.hcontent h3 {
+  padding: 15px;
+}
+
+.kartu {
+  width: 30%;
+  margin: 15px;
+  padding: 20px;
+  background-color: rgb(14, 184, 56);
+  border-radius: 10px;
+  box-shadow: black 10px 10px 14px;
+}
+
+.kartu img {
+  border-radius: 10px;
+}
+
+.kartu button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-body h5 {
+  color: #fff;
+}
+
+.card-body p {
+  color: #fff;
+}
+
+/* Akhir content */
+
+/* Awal Footer */
+.footing {
+  background-color: rgb(14, 184, 56);
+  padding: 20px;
+}
+.fcont {
+  width: 30%;
+  margin: auto;
+}
+
+.fcont h5 {
+  color: #fff;
+  text-align: center;
+}
+
+.fcont li {
+  list-style: none;
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  color: #fff;
+}
+/* Akhir Footer */
+
+/* Awal Login */
+.masuk {
+  padding: 20px;
+  height: auto;
+}
+
+.mlogin {
+  margin: auto;
+}
+
+.mlogin h5 {
+  padding: 10px;
+  background-color: rgb(14, 184, 56);
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: black 10px 8px 15px;
+}
+
+.btab {
+  position: relative;
+  padding: 100px;
+  margin: auto;
+  background-color: rgb(14, 184, 56);
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: black 10px 10px 14px;
+  height: auto;
+}
+
+.btab form {
+  margin: auto;
+}
+
+.btab form input {
+  border: none;
+  border-radius: 10px;
+}
+
+.btab form button {
+  color: #fff;
+}
+
+/* Akhir Login */
+/* Awal Register */
+.ctab {
+  margin: auto;
+}
+
+.ctab h5 {
+  padding: 10px;
+  background-color: rgb(14, 184, 56);
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: black 10px 8px 15px;
+}
+.rtab {
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(14, 184, 56);
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: black 10px 10px 14px;
+  height: auto;
+}
+.rtab form {
+  margin: auto;
+}
+
+.rtab form input {
+  border: none;
+  border-radius: 10px;
+}
+
+.rtab form button {
+  color: #fff;
+  text-decoration: none;
+}
+/* Akhir Register */
+
+/* Admin Panel */
+.cymin {
+  padding: 10px;
+}
+
+.admin table {
+  background-color: rgb(14, 184, 56);
+}
+/* Akhir admin panel */
+
+/* CSS Tambah Artikel */
+.tambahart {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(14, 184, 56);
+  border-radius: 10px;
+}
+
+.tambahart form input {
+  width: 80%;
+}
+.tambahart form textarea {
+  width: 80%;
+  height: 50vh;
+}
+
+.tambahart form button {
+  color: #fff;
+}
+/* Akhir tambah artikel */
+
+/* CSS Detailartikel */
+.artbox {
+  padding: 30px;
+  background-color: rgb(14, 184, 56);
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.artbox h3 {
+  color: #fff;
+}
+.artbox img {
+  border-radius: 20px;
+  margin: auto;
+}
+
+.artbox p {
+  white-space: pre-line;
+  color: #fff;
+}
+/* Akhir Artikel  */
+
+/* Bagian Responsive */
+@media only screen and (max-width: 991px) {
+  /* CSS NAVBAR */
+  .navbar-brand {
+    transform: translateX(10px);
+  }
+  .nav-item {
+    transform: translateX(-10px);
+  }
+  /* CSS JUMBOTRON */
+  .ydown {
+    transform: translateY(-10px);
+  }
+  .jumbo h3 {
+    font-size: 28px;
+  }
+  .jumbo button {
+    width: 50%;
+  }
+  /* css preview artikel */
+  .hcontent h3 {
+    font-size: 25px;
+  }
+  .kartu {
+    width: 45%;
+  }
+  /* CSS UBAH DAN TAMBAH ARTIKEL */
+  .tambahart {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 428px) {
+  /* CSS JUMBOTRON */
+  .jumbo h3 {
+    font-size: 20px;
+  }
+  .jumbo button {
+    width: 100%;
+  }
+  /* CSS PREVIEW */
+  .kartu {
+    width: 90%;
+  }
+  /* Footer */
+  .fcont {
+    width: 100%;
+  }
+  .fcont h5 {
+    font-size: 18px;
+  }
+  .fcont li {
+    font-size: 15px;
+  }
+  /* CSS Login */
+  .mlogin {
+    transform: translateY(30px);
+  }
+  .mlogin h5 {
+    width: 100%;
+  }
+  .btab {
+    width: 100%;
+    padding: 50px;
+  }
+  /* CSS REGISTER */
+  .ctab h5 {
+    width: 100%;
+  }
+  .rtab {
+    width: 100%;
+    padding: 10px;
+    height: 80vh;
+  }
+
+  .clogin {
+    padding: 50px !important;
+  }
+  /* CSS DETAIL ARTIKEL */
+  .artbox {
+    width: 100%;
+  }
+  /* CSS ADMIN TABEL */
+  .admin table {
+    width: 50%;
+    height: auto;
+  }
+  /* CSS TAMBAH DAN UBAH ARTIKEL */
+  .tambahart {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  /* CSS JUMBOTRON */
+  .jumbo h3 {
+    font-size: 18px;
+  }
+  .jumbo button {
+    width: 100%;
+  }
+  /* CSS PREVIEW */
+  .kartu {
+    width: 90%;
+  }
+  /* CSS LOGIN */
+  .mlogin {
+    transform: translateY(10px);
+  }
+  .btab {
+    width: 100%;
+    padding: 30px;
+  }
+  /* CSS REGISTER */
+  .ctab h5 {
+    width: 100%;
+  }
+  .rtab {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* CSS LOGIN */
+  .mlogin {
+    transform: translateY(1px);
+  }
+  .btab {
+    width: 100%;
+    padding: 10px;
+  }
+  /* CSS REGISTER */
+  .rtab {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Akhir Responsive */
